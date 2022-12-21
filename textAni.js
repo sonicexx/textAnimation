@@ -1,4 +1,4 @@
-class TextAni{
+module.exports = class TextAni{
     constructor(...args){
         this.obj = document.querySelector(args[0].node)
         this.spl = args[0].spl
