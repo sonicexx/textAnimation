@@ -1,0 +1,26 @@
+{
+  "name": "textani",
+  "version": "1.1.0",
+  "description": "正式初始版本",
+  "main": "textAni.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonicexx/textAnimation.git"
+  },
+  "keywords": [
+    "text",
+    "animation"
+  ],
+  "author": "nicexx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonicexx/textAnimation/issues"
+  },
+  "homepage": "https://github.com/sonicexx/textAnimation#readme",
+  "dependencies": {
+    "anitext": "^1.0.0"
+  }
+}
