@@ -1,7 +1,7 @@
 {
   "name": "textani",
-  "version": "1.1.2",
-  "description": "正式初始版本",
+  "version": "1.1.5",
+  "description": "1.修复和用户自定义动画冲突；2.新增链接引入方式",
   "main": "textAni.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
