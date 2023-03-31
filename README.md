@@ -26,7 +26,7 @@
 ## 一.可以使用连接引入
 
 ```shell
-<script src="https://cdn.jsdelivr.net/gh/sonicexx/textAnimation@master/linkJS/textAni.js"> </script>
+<script src="https://cdn.jsdelivr.net/gh/sonicexx/textAnimation@master/linkJS/textani.js"> </script>
 ```
 
 ### 直接使用实例化
@@ -69,6 +69,7 @@ import TextAni from 'textani';
 ```javascript
 new TextAni({
   el: '.text', //必填
+  text:,//选填，指定所使用的文字内容
   spl: 0, //选填
   //默认 0，每个字符都有独立的动画
   //写入数字 比如 4，动画总共分为 4 步，4 步后全部字符显示，动画执行结束
