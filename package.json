@@ -1,7 +1,7 @@
 {
   "name": "textani",
-  "version": "1.1.5",
-  "description": "1.修复和用户自定义动画冲突；2.新增链接引入方式",
+  "version": "2.0.0",
+  "description": "1.修改如果样式表中不存在style标签，就新建一个接收关键帧动画属性的标签； 2.修复多处 bug；3.整体节点插入从 append 模式转为 innerHTML 模式；4.通用样式直接构建相应的选择器的样式;5.新增按顺序淡入模式;",
   "main": "textAni.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/sonicexx/textAnimation/issues"
   },
-  "homepage": "https://github.com/sonicexx/textAnimation#readme",
-  "dependencies": {
-    "anitext": "^1.0.0"
-  }
+  "homepage": "https://github.com/sonicexx/textAnimation#readme"
 }
